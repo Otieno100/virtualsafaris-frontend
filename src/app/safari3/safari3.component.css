@@ -1,0 +1,63 @@
+.card{
+    border:none;
+}
+.title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Irish Grover', cursive;
+}
+.product{
+    background-color:#110E14;
+    color:white;
+    padding: 100px;
+    margin-top:100px;
+}
+.brand{
+    font-size: 13px;
+}
+
+.about{
+    font-size: 14px;
+}
+.color{
+    margin-bottom:10px;
+}
+.btn-danger{
+    background-color: #110E14!important;
+    border-color: white !important;
+}
+.btn-danger:focus{
+    box-shadow: none;
+}
+.cart i{
+    margin-right: 10px;
+}
+.display{
+    background-image: url('https://images.pexels.com/photos/33045/lion-wild-africa-african.jpg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 20px;
+
+}
+
+
+.motto{
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+
+}
+.motto1{
+    font-size:20px;
+    color: white;
+    font-family: 'Irish Grover', cursive;
+
+
+}
+.text{
+    padding-top:350px;
+    padding-left:20px;
+
+}

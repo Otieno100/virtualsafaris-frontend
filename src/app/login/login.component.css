@@ -1,0 +1,218 @@
+
+.buttn {
+    margin-left: 1000px;
+}
+
+.jobse {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.comp {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* Full-width input fields */
+
+input[type=text],
+input[type=password],
+input[type=number] {
+    width: 65%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: rgb(32, 34, 32);
+    border-width: 0.1px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    /* margin-left: 100px; */
+}
+
+#regform {
+    align-items: center;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: white;
+    border-color: rgb(32, 34, 32);
+    border-width: 1px;
+    box-shadow: 0px 0px 0px 1px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+hr {
+    /* border: 1px solid #f1f1f1; */
+    margin-bottom: 25px;
+}
+
+
+/* Set a style for all buttons */
+
+/* .signupbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+} */
+
+.btn-pri {
+    background-color: #E2AA2E;
+    color: white;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    /* border-color: rgb(32, 34, 32); */
+    border-width: 2px;
+    box-shadow: 0px 0px 0px 1px;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 50px;
+    margin-top: 200px;
+}
+
+
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.head {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #E2AA2E;
+}
+
+.btn-pri {
+    background-color: #E2AA2E;
+    color: white;
+    margin-top: 20px;
+    height: 1cm;
+    width: 4cm;
+    border-radius: 10px;
+}
+
+.btn-sec {
+    background-color: white;
+    color: #E2AA2E;
+    /* border: solid #E2AA2E 1px; */
+    margin-top: 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+input[type=name],
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email] {
+    width: 65%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-color: rgb(32, 34, 32);
+    /* border-width: 0.1px; */
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    margin-left: 100px;
+}
+
+#ebtn {
+    background-color: white;
+    color: #E2AA2E;
+    /* border: solid #E2AA2E 1px; */
+    margin-top: 20px;
+    height: cm;
+}
+
+.pri1 {
+  background-color: #E2AA2E;
+  color: white;
+}
+
+.sec1 {
+  background-color: white;
+  color: #E2AA2E;
+}
+
+p,
+li {
+  font-size: 20px;
+  font-family: 'Krub', sans-serif;
+}
+
+h4 {
+  font-size: 30px;
+  font-family: 'Krub', sans-serif;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Krub', sans-serif;
+  font-weight: bold;
+}
+
+
+a{
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+  color: #E2AA2E;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #E2AA2E;
+}
+
+label {
+  margin-left: 40px;
+  font-family: 'Krub', sans-serif;
+  font-weight: 500;
+}
+
+
+form {
+    background-color: white;
+    border: solid ;
+    border-radius: 10px;
+    padding: 60px;
+    width: 50%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8cm;
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+background: rgba( 255, 255, 255, 0.6 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 12px );
+-webkit-backdrop-filter: blur( 12px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

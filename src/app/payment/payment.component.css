@@ -1,0 +1,45 @@
+/* .row{
+  width:100vw;
+  height: 100vh;
+  background-color: aliceblue;
+} */
+.container{
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/9847041/pexels-photo-9847041.jpeg?auto=compress&cs=tinysrgb&w=1400");
+  }
+  mat-card{
+  
+    text-align: center;
+      
+  }
+  #btn-primary{
+      background-color: rgb(42, 165, 97);
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  }
+  
+  form {
+    /* margin-top: 4cm; */
+    background: rgba( 255, 255, 255, 0.4 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 1.5px );
+  -webkit-backdrop-filter: blur( 1.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: coral;
+    /* border: solid ; */
+    width: 12cm;
+  
+    /* width: 400%; */
+  
+    /* max-width: 380px; */
+    padding: 15px;
+   margin-left: 10cm;
+   justify-content: center;
+  } 
+  p{
+    font-size: 1.5em;
+    text-emphasis-color: green;
+  }

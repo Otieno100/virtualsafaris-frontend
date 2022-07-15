@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.display{
+    background-image: url('https://images.pexels.com/photos/7001092/pexels-photo-7001092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 20px;
+
+}
+
+
+.motto{
+    font-size:50px;
+    font-weight: bold;
+    color: white;
+
+}
+.motto1{
+    font-size:20px;
+    color: white;
+
+
+}
+.text{
+    padding-top:350px;
+    padding-left:20px;
+
+}
+.book1{
+    background-color: #110E14;
+    color:white;
+    padding:10px;
+    border-style: none;
+    position: relative;
+    float:right;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 50px;
+}
+.book2{
+  background-color: #110E14;
+  color:white;
+  padding:20px;
+  border-style: none;
+  position: relative;
+  float:right;
+  margin-top: -25px;
+  margin-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+a{
+    color: white;
+
+}
+
+.first{
+    justify-content: space-between;
+}
+img{
+    max-width:30%;
+    margin: 15px;
+    margin-bottom: 30px;
+}
+.feat{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+.img1{
+    max-width: 70%;
+}
+.img2{
+    max-width:100vw;
+    max-height: 55vh;
+    position: relative;
+    object-fit: cover;
+}
+#contacts{
+    border-style: hidden;
+    color: white;
+    text-align: center;
+    max-height: 300px;
+    margin:40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.contact1{
+    background-image: url('https://images.pexels.com/photos/7334697/pexels-photo-7334697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+
+}
+.vid{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+}
+#news{
+    background-color: #010600;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:20px;
+}
+.news1{
+    background-color: #E6DDDD;
+    padding:3px;
+    border-style: none;
+
+}
+.p1{
+    font-size:30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:20px;
+    color:#40916c;
+    font-weight: 700;
+
+
+}
+.p2{
+    font-size:70px;
+    margin-bottom: 30px;
+    margin-left:100px;
+    font-weight: bold;
+    color:#344e41;
+
+}
+
+.p3{
+    font-size:30px;
+    margin-bottom: 30px;
+    margin-left:40px;
+    font-weight: 700;
+    color:#344e41;
+
+
+
+    
+}
+.p4{
+    font-size:30px;
+    font-weight: 700;
+    margin-left:150px;
+    color:#588157;
+  
+}
+h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+.carousel .carousel-item {
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	overflow: hidden;
+	min-height: 340px;
+}
+.carousel .carousel-item a {
+	color: #eb7245;
+}
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+.carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+.carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+.carousel-control-prev, .carousel-control-next {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: #999;
+	text-shadow: none;
+	top: 4px;
+}
+.carousel-control-prev i, .carousel-control-next i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+.carousel-control-prev {
+	left: auto;
+	right: 40px;
+}
+.carousel-control-next i {
+	margin-right: -2px;
+}
+.carousel .carousel-indicators {
+	bottom: 15px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border: none;
+}
+.carousel-indicators li.active {		
+	background: #888;		
+}
+

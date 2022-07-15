@@ -1,0 +1,22 @@
+<div >
+    <mat-card >
+      <h1>Pay To Book A Safari</h1>
+      <form [formGroup]="paymentForm" (ngSubmit)="submit()">
+        <mat-form-field appearance="fill">
+          <mat-label for="number">Enter phone number</mat-label>
+          <input formControlName="number" matInput />
+        </mat-form-field><br><br>
+        <mat-form-field appearance="fill">
+          <mat-label for="amount">Amount</mat-label>
+          <input formControlName="amount" matInput />
+        </mat-form-field>
+      
+        <button mat-button type="submit" id="btn-primary" >Pay Now</button><br>
+        <a routerLink="/safari1" href=""><button mat-button type="submit" id="btn-primary" >Back</button></a>
+        
+        
+   
+
+      </form>
+    </mat-card>
+  </div>

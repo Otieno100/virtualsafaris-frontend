@@ -1,0 +1,16 @@
+.menu{
+    padding:20px;
+    background-color:#110E14;
+    opacity: 0.3;
+    justify-content: center;
+    color: white;
+
+}
+a{
+    color: white;
+    margin:70px;
+}
+.logo{
+    font-family: 'Irish Grover', cursive;
+    font-size: 30px;
+}
